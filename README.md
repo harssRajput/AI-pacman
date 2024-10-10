@@ -7,6 +7,7 @@ https://github.com/user-attachments/assets/5c644c69-022d-4b90-8fe2-f1b7630e5792
 ## Execution Time Across Processors
 - Mac M1 CPU (8 cores): `2.5 minutes per episode`.
 - Mac M1 GPU: `17 seconds per episode` (significantly faster). Ensure MPS is enabled.
+- learning by memory replay at every 4th frame instead of every single frame made `7 seconds per episode`
 
 ## Chronology of Updates and Strategies at various episode checkpoints
 
